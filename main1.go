@@ -17,4 +17,6 @@ func main() {
 	if err != nil {
 		log.Fatalln(err)
 	}
+	tpl = template.Must(template.ParseFiles("tpl.gohtml"))
+	
 }
